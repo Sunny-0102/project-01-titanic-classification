@@ -15,11 +15,15 @@ __pycache__/
 # Notebooks
 .ipynb_checkpoints/
 
-# Data (keep data out of git)
-data/raw/
-data/interim/
-data/processed/
+# Data (keep files out of git, but keep the folders visible)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
 
-# Models / artifacts
-models/
+# Models / artifacts (keep files out of git, but keep the folder visible)
+models/*
+!models/.gitkeep
 *.pkl
