@@ -4,7 +4,7 @@
 Predict passenger survival using structured tabular data.
 
 ## Tech
-Python, pandas, scikit-learn, matplotlib
+Python, pandas, scikit-learn, matplotlib, seaborn
 
 ## Repo Structure
 - `data/` raw/interim/processed (not tracked in git)
